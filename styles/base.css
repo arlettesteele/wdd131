@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+
+}
+
+nav a {
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card img {
+    display: flex;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-me img {
+    float: right;
+}
+
+figure img {
+    float: left;
+}
+
+figcaption {
+    color: rgb(46, 50, 108);
+}
+
+
+.card ul {
+    list-style-type: disc;
+    text-align: left;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+footer span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer p:last-child {
+    color: #ffc107;
+}
