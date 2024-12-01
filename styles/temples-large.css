@@ -1,0 +1,41 @@
+
+@media (min-width: 550px) {
+    .images {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .hamburger {
+        display: none;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+    }
+}
+
+@media (min-width: 800px) {
+    .images {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+    }   
+}
