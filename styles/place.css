@@ -7,7 +7,7 @@
 }
 * {
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', serif;
 }
 
 body {
@@ -28,6 +28,23 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     border-bottom: 25px solid var(--darkRed);
+}
+h1::before,
+h1::after {
+    content: '-----';
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    font-size: 24px;
+    color: var(--lightBlue);
+}
+
+h1::before {
+    left: -60px;
+}
+
+h1::after {
+    right: -60px;
 }
 
 .images {
