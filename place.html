@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Arlette Steele</title>
+    <meta name="author" content="Arlette Steele">
+    <meta name="description" content="Get to know Chile. The country where Arlette Steele grew up!">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+</head>
+<body>
+    <header>
+        <h1>Chile</h1>
+    </header>
+    <main>
+        <picture class="images">
+            <source srcset="images/Magallanes-Large.jpg" media="(min-width: 600px)">
+            <img src="images/Magallanes-small.jpg" alt="Magallanes Chile">
+        </picture>
+        <div class="data">
+            <h2>Data</h2>
+            <table>
+                <tr>
+                    <th>Capital:</th>
+                    <th>Santiago</th>
+                </tr>
+                <tr>
+                    <th>National Language:</th>
+                    <th>Spanish</th>
+                </tr>
+                <tr>
+                    <th>Area:</th>
+                    <th>756,101.96 km2</th>
+                </tr>
+                <tr>
+                    <th>Population:</th>
+                    <th>19,629,588</th>
+                </tr>
+                <tr>
+                    <th>Currency:</th>
+                    <th>Chilean peso</th>
+                </tr>
+                <tr>
+                    <th>Government:</th>
+                    <th>Unitary presidential republic</th>
+                </tr>
+                <tr>
+                    <th>Time Zone:</th>
+                    <th>UTC-4 and -6 Summer</th>
+                </tr>
+                <tr>
+                    <th>Calling Code:</th>
+                    <th>+56</th>
+                </tr>
+                <tr>
+                    <th>Internet TLD:</th>
+                    <th>.cl</th>
+                </tr>
+            </table>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <picture>
+                <source srcset="images/weather.svg" width="55" media="(min-width: 790px)">
+                <img src="images/weather.svg" alt="weather icon" width="150">
+            </picture>
+            
+            <table>
+                <tr>
+                    <th>Temperature:</th>
+                    <th>20°C</th>
+                </tr>
+                <tr>
+                    <th>Conditions:</th>
+                    <th>Partly Cloudy</th>
+                </tr>
+                <tr>
+                    <th>Wind:</th>
+                    <th>14 km/h</th>
+                </tr>
+                <tr>
+                    <th>Windchill:</th>
+                    <th id="windchill">N/A</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p id="copyright"></p>
+        <span id="currentyear"></span>
+        <p> 🌊 Arlette Steele | San Antonio, Texas 🌊 </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
