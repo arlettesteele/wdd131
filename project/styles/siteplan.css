@@ -1,0 +1,99 @@
+
+:root {
+    --darkblue: #0A369D;
+    --blue: #4472CA;
+    --lightblue: #BCD0F6;
+    --background: #CFDEE7;
+}
+
+* {
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    padding: 20px;
+    margin: 0;
+    background-color: var(--darkblue);
+    text-align: center;
+    color: #fff;
+    border-bottom: 30px solid var(--blue);
+}
+
+main {
+    padding-top: 20px;
+    background-color: var(--background);
+    margin: 0;
+}
+
+.purpose {
+    text-align: center;
+}
+
+.common-questions h2{
+    text-align: center;
+}
+
+.common-questions div {
+    border: 1px solid var(--darkblue);
+    padding: 5%;
+    background-color: var(--lightblue);
+    border-radius: 25px;
+}
+
+.common-questions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    place-items: center;
+}
+
+.site-colors h4{
+    font-size: 25px;
+    color: #07173d;    
+    text-align: center;
+}
+
+.site-colors img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000;
+}
+
+.site-colors p {
+    text-align: center;
+}
+
+.typography h5{
+    font-size: 18px;
+    text-align: center;
+}
+
+.wireframe h5 {
+    text-align: center;
+    font-size: 25px;
+    background-color: #4472CA;
+    color: #fff;
+    border: 2px solid var(--darkblue);
+}
+
+.wireframe img {
+    display: block;
+    margin: auto auto;
+    padding-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--darkblue);
+    color: var(--background);
+    font-size: 40px;
+
+}
+
