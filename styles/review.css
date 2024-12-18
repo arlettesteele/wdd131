@@ -1,0 +1,29 @@
+:root {
+    --darkblue: #0A369D;
+    --blue: #4472CA;
+    --lightblue: #BCD0F6;
+    --background: #CFDEE7;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: var(--darkblue);
+    color: #fff;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 20px solid var(--lightblue);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--darkblue);
+    color: var(--background);
+}
