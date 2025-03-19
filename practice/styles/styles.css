@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+header h1 {
+    background-color: rgb(80, 80, 80);
+    padding: 10%;
+    color: white;
+    display: block;
+    margin: 1;
+}
