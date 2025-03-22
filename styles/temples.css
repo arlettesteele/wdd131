@@ -36,7 +36,7 @@ nav {
     display: none; 
 }
 
-nav li:hover {
+nav:hover {
     background-color: aliceblue;
     color: #06315c;
 }
