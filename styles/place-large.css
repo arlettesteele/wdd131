@@ -1,0 +1,36 @@
+@media screen and (min-width: 800px) { 
+    
+    picture, img {
+        border-bottom: 0;
+    }
+    .container {
+        position: relative;
+    }
+
+    .info{
+        background-color: var(--large-background);
+        border-radius: 1rem;
+        color: #fff;
+        position: absolute;
+        bottom: 50%;
+        left: 1%;
+    }
+
+    h2, h3 {
+        color: var(--text);
+        background-color: var(--background);
+        border-radius: .5rem;
+        padding: 5px;
+
+    }
+
+    .weather {
+        background-color: var(--large-background);
+        border-radius: 1rem;
+        color: #fff;
+        position: absolute;
+        bottom: 10%;
+        right: 1%;
+        padding-bottom: 0;
+    }
+}
