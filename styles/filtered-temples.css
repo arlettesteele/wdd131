@@ -36,9 +36,10 @@ nav {
     display: none; 
 }
 
-nav li:hover {
+nav a:hover {
     background-color: aliceblue;
     color: #06315c;
+    padding: 20px;
 }
 
 nav li {
