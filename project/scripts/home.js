@@ -1,4 +1,3 @@
-const mainnav = document.querySelector('nav');
 const hambutton = document.querySelector('#hamburger-btn');
 const sectionText = document.querySelector('.section-text');
 
@@ -16,10 +15,13 @@ hambutton.addEventListener('click', () =>
     }
 });
 
-window.addEventListener("resize", () => {
-    if (window.innerWidth >= 800) {
-        nav.classList.remove("open");
-    }
+document.addEventListener("DOMContentLoaded", () => {
+    const nav = document.querySelector('nav');
+    window.addEventListener("resize", () => {
+        if (window.innerWidth >= 800) {
+            nav.classList.remove("open");
+        }
+    });
 });
 
 const logo = document.querySelector('#logo');
