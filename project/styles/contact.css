@@ -93,6 +93,7 @@ main {
 .container p {
     color: var(--header);
     text-decoration: none;
+    pointer-events: none;
 }
 
 .phone, .email, .fax {
@@ -120,7 +121,7 @@ main {
 }
 
 .location iframe {
-    width: 400px; 
+    width: 250px; 
     height: 300px;
 }
 
