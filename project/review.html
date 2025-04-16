@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reedefined Smiles Review Form Page</title>
+    <meta name="author" content="Arlette Steele">
+    <meta name="description" content="Please share your experience with our dental office to help us improve our services.">
+    <link href="styles/review.css" rel="stylesheet">
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/review.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <picture id="logo">
+            <source srcset="images/large-logo.png">
+            <img src="images/large-logo.png" alt="Logo of Reedefined Smiles" loading="lazy">
+        </picture>
+        <button id="hamburger-btn">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="services.html" id="aboutService">About our Services</a></li>
+                <li><a href="contact.html" id="contactUs">Contact Us</a></li>
+                <li><a href="review.html" id="review">Leave a Review</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="response.html">
+            <fieldset>
+                <label for="service">Service Name</label>
+                <select name="service" id="service" required>
+                    <option value="">Please Select a Service</option>
+                </select> 
+
+                <p>Overall Rating</p>
+
+                <div class="overall-rating">
+                <label> ☆ <input type="radio" name="rating" value="one" required></label>
+                <label> ☆☆ <input type="radio" name="rating" value="two" required></label>
+                <label> ☆☆☆ <input type="radio" name="rating" value="three" required></label>
+                <label> ☆☆☆☆ <input type="radio" name="rating" value="four" required></label>
+                <label>☆☆☆☆☆<input type="radio" name="rating" value="five" required></label>
+                </div>
+
+                <label for="date">Date of Service</label> 
+                <input type="date" id="date" name="service-date" required>
+
+                <label for="review">Written Review (Optional)</label>
+                <textarea id="review" name="review" placeholder="Type your message here..."></textarea>                
+
+                <label for="name">Your Name (Optional)</label>
+                <input type="text" name="name" id="name">
+
+
+                <input type="submit" value="Send My Review">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <picture class="footer-logo">
+            <source srcset="images/large-logo.png" media="(min-width : 600px)">
+            <img src="images/small-logo.png" alt="Reedefined Smiles Logo" loading="lazy">
+        </picture>
+        <h4>
+            Open Monday - Friday
+            <br>8AM-6PM 
+        </h4>
+        <div class="social-media">
+            <img id="fb"src="images/fb-logo.svg" alt="Facebook Logo" loading="lazy">
+            <img id="ig"src="images/ig-logo.svg" alt="Instagram Logo" loading="lazy">
+        </div>
+    </footer>
+</body>
+</html>
