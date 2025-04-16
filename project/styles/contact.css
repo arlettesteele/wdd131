@@ -82,11 +82,17 @@ main {
 
 .general p {
     font-size: 20px;
+    color: var(--text-1);
 }
 
 .container {
     display: grid;
     place-items: center;
+}
+
+.container p {
+    color: var(--header);
+    text-decoration: none;
 }
 
 .phone, .email, .fax {
