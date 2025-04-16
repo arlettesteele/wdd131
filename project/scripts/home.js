@@ -2,26 +2,15 @@ const mainnav = document.querySelector('nav');
 const hambutton = document.querySelector('#hamburger-btn');
 const sectionText = document.querySelector('.section-text');
 
-hambutton.addEventListener('click', () =>
-{
+hambutton.addEventListener('click', () => {
     mainnav.classList.toggle('open');
     hambutton.classList.toggle('open');
-
-    if (window.innerWidth > 640) {
-        if (mainnav.classList.contains('open')) {
-            sectionText.style.top = "45%";
-        } else {
-            sectionText.style.top = "30%";
-        }
-    }
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-    window.addEventListener("resize", () => {
-        if (window.innerWidth >= 800) {
-            mainnav.classList.remove("open");
-        }
-    });
+window.addEventListener("resize", () => {
+    if (window.innerWidth >= 800) {
+        mainnav.classList.remove("open");
+    }
 });
 
 const logo = document.querySelector('#logo');
